@@ -1,0 +1,21 @@
+import { Router } from 'express';
+import { authenticate } from '../middleware/auth.js';
+import {
+  getAll,
+  getById,
+  create,
+  update,
+  remove,
+  reorder,
+} from '../controllers/faqController.js';
+
+const router = Router();
+
+router.get('/', getAll);
+router.get('/:id', getById);
+router.post('/', authenticate, create);
+router.put('/reorder', authenticate, reorder);
+router.put('/:id', authenticate, update);
+router.delete('/:id', authenticate, remove);
+
+export default router;
