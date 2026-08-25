@@ -1,4 +1,4 @@
-﻿# Celine Marie CYUZUZO IRAKOZE - Academic Portfolio Platform
+﻿# Pie NEMEYAMAHORO- Academic Portfolio Platform
 
 > Enterprise full-stack academic portfolio, research, educational resource, professional consulting, publishing, and knowledge-management platform.
 
@@ -30,7 +30,7 @@
 
 ## Overview
 
-The **Celine Marie CYUZUZO IRAKOZE Academic Portfolio Platform** is a comprehensive, enterprise-grade full-stack application designed to serve as a unified hub for academic portfolios, research management, educational resource publishing, professional consulting services, and knowledge management.
+The **Pie NEMEYAMAHORO Academic Portfolio Platform** is a comprehensive, enterprise-grade full-stack application designed to serve as a unified hub for academic portfolios, research management, educational resource publishing, professional consulting services, and knowledge management.
 
 The platform supports multiple user roles with granular permissions, multi-language content (English, French, Latin), a complete public-facing website, and an extensive admin dashboard for content management across 30+ data models.
 
@@ -533,7 +533,8 @@ The platform uses MongoDB as the primary data store with Mongoose as the ODM lay
 
 Performance is optimized with indexes on:
 
-- **User**: email (unique), ole, isActive
+- **User**: email (unique), 
+ole, isActive
 - **Profile**: slug (unique)
 - **Publication**: slug (unique), 	ype, publishedAt, uthors
 - **ResearchProject**: slug (unique), status
@@ -588,7 +589,8 @@ The platform implements a dual-token authentication system:
 | content_manager | CRUD for all content types |
 | editor | Edit and publish content |
 | moderator | Moderate comments and user submissions |
-| esearch_manager | Manage research projects and publications |
+| 
+esearch_manager | Manage research projects and publications |
 | service_manager | Manage services and service requests |
 
 ### Permissions
